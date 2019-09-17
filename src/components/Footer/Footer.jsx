@@ -1,10 +1,11 @@
 import React from "react";
+import './footer.scss';
 
 class Footer extends React.Component{
 
   render(){
     return(
-      <div>
+      <div className="footer">
         <div className="footercontent">
           <div className="ayuda">
             <h6>¿Necesitas ayuda?</h6>
@@ -14,35 +15,33 @@ class Footer extends React.Component{
           </div>
           <div className="informacion">
             <h5>INFORMACION</h5>
-            <br/>
-            <h6>
+            <p>
             <a href="#">Quienes somos</a>
-            </h6>
-            <h6>
+            </p>
+            <p>
             <a href="#">Preguntas frecuentes</a>
-            </h6>
-            <h6>
+            </p>
+            <p>
             <a href="#">Política de privacidad</a>
-            </h6>
-            <h6>
+            </p>
+            <p>
             <a href="#">Condiciones generales</a>
-            </h6>
-            <h6>
+            </p>
+            <p>
             <a href="#">Aviso Legal</a>
-            </h6>
-            <h6>
+            </p>
+            <p>
             <a href="#">Contacto</a>
-            </h6>
-            <h6>
+            </p>
+            <p>
             <a href="#">Programa de puntos</a>
-            </h6>
-            <br/>
+            </p>
           </div>
           <div className="suscripcion">
             <h6>SUSCRIPBETE A LA NEWSLETTER</h6>
             <input type="mail" placeholder="E-mail"/>
             <br/>
-            <button className="btn button btn-warning">
+            <button className="btn button btn-warning mt-3">
               Suscribirse
             </button>
             <br/>

@@ -1,5 +1,6 @@
 import React from "react";
 import Header from '../Header/Header';
+import './login.scss'
 
 class Login extends React.Component{
 
@@ -9,9 +10,9 @@ class Login extends React.Component{
         <Header/>
         <div className="row">
           <form className="text-center border-light col-10 form-registro">
-            <p className="h2 mb-4">
+            <h2 className="mb-4">
               Login
-            </p>
+            </h2>
             <input 
               type="email"
               id="defaultLoginFormUsuario"

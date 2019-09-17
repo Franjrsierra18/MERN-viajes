@@ -1,0 +1,102 @@
+.header{
+  .container-fluid{
+    padding: 0px;
+    .row {
+      margin-right: 0px;
+      margin-left: 0px;
+      justify-content: center;
+      .col-12-sm{
+        width: 100vw;
+        .navbar {
+          padding: 10px;
+          background-color: rgba(22, 33, 87, 0.5);
+          display: flex;
+          flex-direction: row;
+          box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+          color: rgba(255, 255, 255, .8);
+          .img-fluid {
+            width: 50%;
+            max-width: 20vw;
+            max-height: 10vh;
+          }
+          #menuBurguer {
+            .menu {
+              font-size: 1.1rem;
+              width: 100%;
+              justify-content: center;
+              color: rgba(255, 255, 255, .8);
+              .nav-item:hover::after {
+                border-bottom: 2px solid #2b045d;
+                .nav-link {
+                  color: rgba(255, 255, 255, .8);
+                }
+              }
+            }
+          }
+          .icoSociale{
+            .sociale {
+              display: flex;
+              flex-direction: row;
+              .nav-sociale {
+                padding: 0px;
+                .nav-link {
+                  color: rgba(255, 255, 255, .8);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 992px) {
+    .navbar {
+      background-color: rgba(22, 33, 87, 0.7);
+      height: 80px;
+      background-color: rgba(22, 33, 87, 0.7);
+      z-index: 99999;
+      color: rgba(255, 255, 255, .9);
+      .img-fluid {
+        max-width: 45%;
+        min-height: 7vh;
+      }
+      .navbar-toggler {
+        background-color: rgba(22, 33, 87, 0.7);
+        color: rgba(255, 255, 255, .9);
+        z-index: 99999;
+      }
+      #menuBurguer {
+        margin-left: 40vw;
+        background-color: rgba(19, 149, 200, 0.897);
+        font-style: italic;
+        color: #fef200;
+        margin-top: -80px;
+        margin-right: -10px;
+        padding-top: 50px;
+        padding-right: 10px;
+        box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+        .menu {
+          align-items: flex-end;
+          padding-right: 5px;
+          text-align: right;
+          padding: 10px;
+          color: rgba(255, 255, 255, .9);
+          .nav-item {
+            padding: 10px 0 10px 0;
+            font-size: 1.2em;
+            :hover {
+              width: 100%;
+              border-bottom: 2px solid #2b045d;
+            }
+            .nav-link {
+              color: rgba(255, 255, 255, .9);
+            }
+          }
+        }
+      }
+      .icoSociale {
+        display: none;
+      }
+    }
+  }
+}
