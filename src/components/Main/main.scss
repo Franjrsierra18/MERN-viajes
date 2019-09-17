@@ -1,0 +1,20 @@
+.main {
+  #Slide {
+    background: url(../../ilha.jpg) no-repeat center top;
+    height: 100vh;
+    padding: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #textSlide {
+      width: 60vw;
+      display: block;
+      align-items: center;
+      align-content: center;
+      color: white;
+      .btn {
+        margin-top: 20px;
+      }
+    }
+  }
+}

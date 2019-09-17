@@ -9,7 +9,7 @@
   color: white;
 }
 
-/* #quienesSomos {
+#quienesSomos {
   margin: auto;
   padding: 68px 0;
   width: 80%;
@@ -39,57 +39,11 @@
   margin: auto;
   background-color: #141939;
 }
-*/
 
 
 
-
-#Slide {
-  background: url(./ilha.jpg) no-repeat center top;
-  height: 100vh;
-  padding: 1.2em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#textSlide {
-  width: 60vw;
-  display: block;
-  align-items: center;
-  align-content: center;
-  color: white;
-}
-
-#textSlide .btn {
-  margin-top: 20px;
-}
-
-.text-white {
-  font-size: 1.5rem;
-}
-
-/* #dondeEstamos {
+#dondeEstamos {
   padding: 90px 0;
-} */
-
-/* .grid-section {
-  margin-top: 5rem;
-  margin-bottom: 3rem;
-} */
-
-.bg-warning {
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  height: 5.5rem;
-  width: 5.5rem;
-  z-index: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  font-size: larger;
 }
 
 
@@ -99,7 +53,7 @@
   font-size: 1.1rem;
 }
 
-/* .formulario {
+.formulario {
   margin-top: 4rem;
 }
 
@@ -116,158 +70,17 @@
   height: 100%;
   width: 100%;
   position: absolute;
-} */
-/* 
-.col-md-4 {
-  max-height: 100%;
-  object-fit: fill;
-} */
-/* 
-.card-img-top {
-  object-fit: fill;
-  max-height: 256px;
-} */
-
-
-
-#estasregistrado {
-  color: whitesmoke;
 }
 
-/* .visibleT {
-  visibility: visible;
-  z-index: 1;
-  margin-bottom: 3rem;
-}
 
-@media (min-width: 768px) {
-  .visibleCarr {
-    display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .visibleT {
-    display: none;
-  }
-
-  .toptitle {
-    text-align: center;
-  }
-
-  .visibleCarr {
-    visibility: visible;
-    margin-top: 0rem;
-  }
-
-  .text-white-carr {
-    color: white;
-    font-size: 1.8rem;
-  }
-
-  .bg-warning {
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    height: 6.5rem;
-    width: 6.5rem;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 2rem;
-  }
-
-  .paraCarr {
-    width: 50rem;
-    height: 40rem;
-  }
-} */
-
-/* @media (max-width: 576px) { */
-  /* .visibleT {
-    display: none;
-  }
-
-  .visibleCarr {
-    visibility: visible;
-    margin-top: 0rem;
-  } */
-
-  /* .bg-warning {
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    height: 6.5rem;
-    width: 6.5rem;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 2rem;
-  }
-
-  .paraCarr {
-    width: 50rem;
-    height: 40rem;
-  }
-
+@media (max-width: 576px) {
   .quienes-somos {
     margin-bottom: 3rem;
   }
-
-  .toptitle {
-    text-align: center;
-  }
-
-  .text-white-carr {
-    color: white;
-    font-size: 1.8rem;
-  }
-} */
-/* 
-@media (min-width:1300px) {
-  .toptitle {
-    text-align: left;
-  }
 }
-
-@media (max-width:1300px) {
-  .toptitle {
-    text-align: left;
-  }
-}
-
-@media (max-width:1068px) {
-  .toptitle {
-    text-align: left;
-  }
-
-  .text-white {
-    font-size: 1.4rem;
-  }
-} */
 
 @media (max-width: 992px) {
-  .text-white {
-    font-size: 1.2rem;
-  }
-
   .formulario {
     display: none;
   }
 }
-/* 
-@media (max-width:928px) {
-  .text-white {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width:868px) {
-  .text-white {
-    font-size: 0.8rem;
-  }
-} */
