@@ -40,13 +40,24 @@
       color: white;
       text-align: center;
       font-size: 1rem;
+      @media (max-width: 768px){
+        display: none;
+      }
+    }
+    .icoSociale{
+      display: none;
+      @media (max-width: 768px){
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
     }
   }
   h6 {
     color: white;
   }
   @media (max-width: 768px){
-    .informacion, .footerderechos{
+    .informacion {
       display: none;
     }
   }

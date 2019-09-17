@@ -1,6 +1,10 @@
 import React from "react";
 import './footer.scss';
 
+const headerStyle = {
+  fontSize: '20px'
+};
+
 class Footer extends React.Component{
 
   render(){
@@ -49,6 +53,38 @@ class Footer extends React.Component{
         </div>
         <div className="footerderechos">
           <p>GeeksHubs Travels 2018 Todos los derechos reservados.</p>
+          <div className="icoSociale">
+            <span>
+              <a href="#" className="nav-link">
+                <i className="fa fa-facebook-square" style={headerStyle}></i>
+              </a>
+            </span>
+            <span>
+              <a href="#" className="nav-link">
+                <i className="fa fa-instagram" style={headerStyle}></i>
+              </a>
+            </span>
+            <span>
+              <a href="#" className="nav-link">
+                <i className="fa fa-twitter-square" style={headerStyle}></i>
+              </a>
+            </span>
+            <span>
+              <a href="#" className="nav-link">
+                <i className="fa fa-linkedin-square" style={headerStyle}></i>
+              </a>
+            </span>
+            <span>
+              <a href="#" className="nav-link">
+                <i className="fa fa-whatsapp" style={headerStyle}></i>
+              </a>
+            </span>
+            <span>
+              <a href="#" className="nav-link">
+                <i className="fa fa-youtube-play" style={headerStyle}></i>
+              </a>
+            </span>
+          </div>
         </div>
       </div>
     )

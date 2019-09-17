@@ -1,0 +1,24 @@
+.registro {
+  background-image: url(https://cdn.inogen.com/wp-content/uploads/2014/01/travel-by-plane.jpg);
+  background-size: 100% 100%;
+  .row {
+    margin-right: 0px;
+    margin-left: 0px;
+    justify-content: center;
+    .form-registro {
+      background-color: rgba(128, 128, 128, 0.397);
+      margin: 3rem 6rem 3rem;
+      padding: 1rem 8rem;
+      @media (max-width: 768px){
+        padding: 1rem 1rem;
+      }
+      #estasregistrado {
+        color: whitesmoke;
+      }
+      .botonEnviar {
+        margin: auto;
+        width: 8rem;
+      }
+    }
+  }
+}
