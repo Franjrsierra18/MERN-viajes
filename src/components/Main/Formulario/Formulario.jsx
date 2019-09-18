@@ -5,7 +5,7 @@ class Formulario extends React.Component{
 
   render(){
     return(
-      <div className="section pb-5 formulario">
+      <div className="section pb-5 formulario" id="formulario">
         <div className="row">
           <div className="col-lg-5 mb-4">
             <div className="card">

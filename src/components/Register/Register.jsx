@@ -1,6 +1,7 @@
 import React from "react";
 import Header from '../Header/Header';
-import './register.scss'
+import './register.scss';
+import { Link } from "react-router-dom";
 
 class Register extends React.Component{
 
@@ -53,7 +54,7 @@ class Register extends React.Component{
             <button className="btn btn-info btn-block my-4 botonEnviar" type="submit">
               Enviar
             </button>
-            <a href="#">¿Tienes una cuenta?</a>
+            <Link to="/login">¿Tienes una cuenta?</Link>
           </form>
         </div>
       </div>
