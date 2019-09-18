@@ -1,86 +1,10 @@
 .App {
   text-align: center;
-  background-color: #282c34;
+  background-color: #e1e5ec;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-#quienesSomos {
-  margin: auto;
-  padding: 68px 0;
-  width: 80%;
-  background-image: url(https://cr00.epimg.net/programa/imagenes/2017/12/16/a_vivir_que_son_dos_dias/1513447257_811691_1513449851_noticia_normal.jpg);
-  color: #222743;
-}
-
-.quienes-somos {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  padding: 1em;
-  width: 80%;
-  background-color: white;
-  text-align: justify;
-}
-
-.quienes-somos h2 {
-  text-decoration-line: underline;
-  text-decoration-color: #fef200;
-  align-self: flex-start;
-}
-
-.quienesSomos button {
-  margin: auto;
-  background-color: #141939;
-}
-
-
-
-#dondeEstamos {
-  padding: 90px 0;
-}
-
-
-
-.promo-foto {
-  margin-right: 4rem;
-  font-size: 1.1rem;
-}
-
-.formulario {
-  margin-top: 4rem;
-}
-
-.map-container-6 {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
-
-.map-container-6 iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-
-
-@media (max-width: 576px) {
-  .quienes-somos {
-    margin-bottom: 3rem;
-  }
-}
-
-@media (max-width: 992px) {
-  .formulario {
-    display: none;
-  }
 }

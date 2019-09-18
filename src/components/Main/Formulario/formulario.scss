@@ -1,0 +1,28 @@
+.formulario {
+  margin-top: 4rem;
+  @media (max-width: 992px) {
+    display: none;
+  }
+  .row {
+    margin-right: 0px;
+    margin-left: 0px;
+    justify-content: center;
+    .card-body {
+      color: black;
+    }
+    .map-container-6 {
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      position: relative;
+      height: 0;
+      iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+      }
+    }
+  }
+}
+

@@ -18,7 +18,7 @@ class Destinos extends React.Component{
                   src="https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/United%20Kingdom/London/london-aerial-thames-guide-xlarge.jpg"
                   alt="Card image cap"/>
                 <div className="card-body">
-                  <h4 className="card-title">London</h4>
+                  <h4 className="card-title text-dark">London</h4>
                 </div>
               </div>
             </div>
@@ -31,7 +31,7 @@ class Destinos extends React.Component{
                 <img className="card-img-top"
                   src="https://media-cdn.tripadvisor.com/media/photo-s/13/91/4b/da/the-quats-temple-bar.jpg" alt="Card image cap"/>
                 <div className="card-body">
-                  <h4 className="card-title">Dublin</h4>
+                  <h4 className="card-title text-dark">Dublin</h4>
                 </div>
               </div>
             </div>
@@ -44,7 +44,7 @@ class Destinos extends React.Component{
                 <img className="card-img-top" src="https://www.atrapalo.com/common/photo/dh/519/0/si_560_460.jpg"
                   alt="Card image cap"/>
                 <div className="card-body">
-                  <h4 className="card-title">Mykonos</h4>
+                  <h4 className="card-title text-dark">Mykonos</h4>
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@ class Destinos extends React.Component{
                 <img className="card-img-top" src="https://cdn.pixabay.com/photo/2019/08/16/16/45/colosseum-4410637_960_720.jpg"
                   alt="Card image cap"/>
                 <div className="card-body">
-                  <h4 className="card-title">Roma</h4>
+                  <h4 className="card-title text-dark">Roma</h4>
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ class Destinos extends React.Component{
                   src="https://cadenaser00.epimg.net/ser/imagenes/2018/12/04/internacional/1543942817_107745_1543944283_noticia_normal.jpg"
                   alt="Card image cap"/>
                 <div className="card-body">
-                  <h4 className="card-title">Amsterdam</h4>
+                  <h4 className="card-title text-dark">Amsterdam</h4>
                 </div>
               </div>
             </div>
@@ -84,7 +84,7 @@ class Destinos extends React.Component{
                 <img className="card-img-top" src="https://www.cremadescalvosotelo.com/sites/default/files/paris.png"
                   alt="Card image cap"/>
                 <div className="card-body">
-                  <h4 className="card-title">Paris</h4>
+                  <h4 className="card-title text-dark">Paris</h4>
                 </div>
               </div>
             </div>
@@ -105,7 +105,7 @@ class Destinos extends React.Component{
                       <img className="card-img-top" src="https://www.atrapalo.com/common/photo/dh/519/0/si_560_460.jpg"
                         alt="Card image cap"/>
                       <div className="card-body">
-                        <h4 className="card-title">Mikonos</h4>
+                        <h4 className="card-title text-dark">Mikonos</h4>
                       </div>
                     </div>
                   </div>
@@ -121,7 +121,7 @@ class Destinos extends React.Component{
                         src="https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/United%20Kingdom/London/london-aerial-thames-guide-xlarge.jpg"
                         alt="Card image cap"/>
                       <div className="card-body">
-                        <h4 className="card-title">London</h4>
+                        <h4 className="card-title text-dark">London</h4>
                       </div>
                     </div>
                   </div>
@@ -135,7 +135,7 @@ class Destinos extends React.Component{
                       </div>
                       <img className="card-img-top" src="https://www.cremadescalvosotelo.com/sites/default/files/paris.png" alt="Card image cap"/>
                       <div className="card-body">
-                        <h4 className="card-title">Paris</h4>
+                        <h4 className="card-title text-dark">Paris</h4>
                       </div>
                     </div>
                   </div>
@@ -151,7 +151,7 @@ class Destinos extends React.Component{
                         src="https://cdn.pixabay.com/photo/2019/08/16/16/45/colosseum-4410637_960_720.jpg"
                         alt="Card image cap"/>
                       <div className="card-body">
-                        <h4 className="card-title">Rome</h4>
+                        <h4 className="card-title text-dark">Rome</h4>
                       </div>
                     </div>
                   </div>
@@ -167,7 +167,7 @@ class Destinos extends React.Component{
                         src="https://cadenaser00.epimg.net/ser/imagenes/2018/12/04/internacional/1543942817_107745_1543944283_noticia_normal.jpg"
                         alt="Card image cap"/>
                       <div className="card-body">
-                        <h4 className="card-title">Amsterdam</h4>
+                        <h4 className="card-title text-dark">Amsterdam</h4>
                       </div>
                     </div>
                   </div>
@@ -181,7 +181,7 @@ class Destinos extends React.Component{
                     </div>
                     <img className="card-img-top" src="https://media-cdn.tripadvisor.com/media/photo-s/13/91/4b/da/the-quats-temple-bar.jpg" alt="Card image cap"/>
                     <div className="card-body">
-                      <h4 className="card-title">Dublin</h4>
+                      <h4 className="card-title text-dark">Dublin</h4>
                     </div>
                   </div>
                 </div>
@@ -192,8 +192,8 @@ class Destinos extends React.Component{
                 <span className="sr-only">Previous</span>
               </a>
               <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="sr-only">Next</span>
               </a>
             </div>
           </div>

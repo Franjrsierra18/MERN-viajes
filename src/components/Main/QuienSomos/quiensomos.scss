@@ -1,0 +1,36 @@
+.QuienSomos {
+  .quienes-somos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1em;
+    width: 80%;
+    text-align: justify;
+    background-image: url(https://cr00.epimg.net/programa/imagenes/2017/12/16/a_vivir_que_son_dos_dias/1513447257_811691_1513449851_noticia_normal.jpg);
+    @media (max-width: 576px) {
+      margin-bottom: 3rem;
+    }
+    #quienesSomos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      border-radius: 2rem;
+      padding: 68px 20px;
+      width: 80%;
+      background-color: #c4c5ca83;
+      h2 {
+        align-self: center;
+      }
+      button {
+        margin: auto;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+
