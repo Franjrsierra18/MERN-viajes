@@ -1,0 +1,125 @@
+<header>
+  <section class="container Slide" id="slide">
+    <div class="row align-items-center">
+      <div class="col-sm">
+        <nav class="navbar navbar-expand-lg navbar-dark primary-color fixed-top">
+          <a class="navbar-brand" href="/"><img img-fluid src="../public/img/logo.png" alt="Logo GeeksHub Travels"
+              class="logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="basicExampleNav">
+            <ul class="navbar-nav mr-auto menu ">
+              <li class="nav-item active">
+                <a class="nav-link" href="/">Destinos
+                  <span class="sr-only"></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/">Donde Estamos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/users/register">Registro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/users/login">Login</a>
+              </li>
+              <ul class="navbar-nav ml-auto sociale">
+                <li class="nav-sociale active">
+                  <a class="nav-link" href="#">
+                    <i class="fa fa-facebook-square" style="font-size:20px;"></i></a>
+                </li>
+                <li class="nav-sociale active">
+                  <a class="nav-link" href="#">
+                    <i class="fa fa-instagram" style="font-size:20px;"></i></a>
+                </li>
+                <li class="nav-sociale active">
+                  <a class="nav-link" href="#">
+                    <i class="fa fa-twitter-square" style="font-size:20px;"></i></a>
+                </li>
+                <li class="nav-sociale active">
+                  <a class="nav-link" href="#">
+                    <i class="fa fa-linkedin-square" style="font-size:20px;"></i></a>
+                </li>
+                <li class="nav-sociale active">
+                  <a class="nav-link" href="#">
+                    <i class="fa fa-whatsapp" style="font-size:20px;"></i></a>
+                </li>
+                <li class="nav-sociale active">
+                  <a class="nav-link" href="#">
+                    <i class="fa fa-youtube-play" style="font-size:20px;"></i></a>
+                </li>
+              </ul>
+        </nav>
+
+
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-fluid registro">
+      <div class="row">
+        <form class="text-center border-light col-10 form-registro" action="/users/login" method="POST">
+          <p class="h2 mb-4">Login</p>
+          <% include ./partials/messages %>
+          <input 
+          type="email" 
+          id="defaultLoginFormUsuario"
+          name="email"
+          class="form-control mb-4" 
+          placeholder="E-mail"
+          value="<%= typeof email != 'undefined' ? email : '' %>"
+          />
+          <input 
+          type="password" 
+          id="LoginFormPassword"
+          name="password"
+          class="form-control mb-4" 
+          placeholder="Contraseña"
+          value="<%= typeof password != 'undefined' ? password : '' %>"
+          />
+          <button class="btn btn-info btn-block my-4 botonEnviar" type="submit">Enviar</button>
+          <a href="#">¿No recuerdas tu contraseña?</a>
+          <p>¿No tienes cuenta?<a href="/users/register">Registrate</a></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</header>
+<div class=footercontent>
+  <div class=ayuda>
+    <h7>¿Necesitas ayuda?<br>
+      0264 123 4567<br>
+      enquiry@geekshubstravels.com<br><br></h7>
+    <p><em>Lun-Vie: 9:30-19:00 Sab: 10:00-14:00</em></p>
+  </div>
+
+
+  <div class=informacion>
+
+    <h7>INFORMACIÓN</h7><br>
+    <a href="quienesSomos.html">Quienes somos</a> <br>
+    <a href="preguntasFrecuentes.html">Preguntas frecuentes</a> <br>
+    <a href="politicaPrivacidad.html">Política de privacidad</a> <br>
+    <a href="condicionesGenerales.html">Condiciones generales</a><br>
+    <a href="avisoLegal.html">Aviso Legal</a><br>
+    <a href="contacto.html">Contacto</a><br>
+    <a href="programaDePuntos.html">Programa de puntos </a> <br>
+  </div>
+
+  <div class=suscripcion>
+
+    <h7>SUSCRÍBETE A LA NEWSLETTER</h7><br><br>
+    <input type="mail" placeholder="correo electrónico"><br><br>
+    <button class="button">Suscribirse</button>
+
+  </div>
+</div>
+
+<div class=footerderechos>
+  <p>GeeksHubs Travels 2018 Todos los derechos reservados.</p>
+</div>

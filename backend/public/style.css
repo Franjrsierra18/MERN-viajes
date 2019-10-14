@@ -1,0 +1,472 @@
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+  justify-content: center;
+}
+
+#quienesSomos {
+  margin: auto;
+  padding: 68px 0;
+  width: 80%;
+  background-image: url(https://cr00.epimg.net/programa/imagenes/2017/12/16/a_vivir_que_son_dos_dias/1513447257_811691_1513449851_noticia_normal.jpg);
+  color: #222743;
+}
+
+.quienes-somos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 1em;
+  width: 80%;
+  background-color: white;
+  text-align: justify;
+}
+
+.quienes-somos h2 {
+  text-decoration-line: underline;
+  text-decoration-color: #fef200;
+  align-self: flex-start;
+}
+
+.quienesSomos button {
+  margin: auto;
+  background-color: #141939;
+}
+
+.logo {
+  height: 60px;
+}
+
+.navbar {
+  padding: 10px;
+  background-color: rgba(22, 33, 87, 0.5);
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+}
+
+.nav-item:hover,
+:after {
+  border-bottom: 2px solid #2b045d;
+}
+
+.menu {
+  font-size: 1.1rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, .8);
+}
+
+.sociale {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-sociale {
+  padding: 0px;
+}
+
+.ocultarLogin {
+  display: none;
+}
+
+#Slide {
+  background: url(./img/ilha.jpg) no-repeat center top;
+  height: 100vh;
+  padding: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#textSlide {
+  width: 60vw;
+  display: block;
+  align-items: center;
+  align-content: center;
+  color: white;
+}
+
+#textSlide .btn {
+  margin-top: 20px;
+}
+
+.text-white {
+  font-size: 1.5rem;
+}
+
+#dondeEstamos {
+  padding: 90px 0;
+}
+
+.grid-section {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.footercontent {
+  background: -webkit-linear-gradient(70deg, #065ea5 30%, rgba(0, 0, 0, 0) 30%), -webkit-linear-gradient(30deg, #0190ba 64%, #3fb2d1 60%);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  object-fit: 
+}
+
+.ayuda {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.informacion {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.informacion a {
+  color: white;
+}
+
+.suscripcion {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footerderechos {
+  background-color: #1e2460;
+  margin: auto;
+  justify-content: center;
+  padding: 1px;
+}
+
+.footerderechos p {
+  margin: auto;
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+h7 {
+  color: white;
+}
+
+.ayuda p {
+  color: white;
+}
+
+.button {
+  position: relative;
+  background-color: orange;
+  border: none;
+  font-size: 16px;
+  color: white;
+  padding: 15px;
+  width: 176px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.button:hover,
+a:active {
+  color: blue;
+}
+
+table.w3-table-all {
+  margin: 20px 0;
+}
+
+.bg-warning {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 5.5rem;
+  width: 5.5rem;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.botonEnviar {
+  margin: auto;
+  width: 8rem;
+}
+
+.promo-foto {
+  margin-right: 4rem;
+  font-size: 1.1rem;
+}
+
+.formulario {
+  margin-top: 4rem;
+}
+
+.map-container-6 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container-6 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.col-md-4 {
+  max-height: 100%;
+  object-fit: fill;
+}
+
+.card-img-top {
+  object-fit: fill;
+  max-height: 256px;
+}
+
+.registro {
+  background-image: url(https://cdn.inogen.com/wp-content/uploads/2014/01/travel-by-plane.jpg);
+  background-size: 100% 100%;
+}
+
+.form-registro {
+  background-color: rgba(128, 128, 128, 0.397);
+  margin: 8rem 6rem 2rem;
+  padding: 1rem 8rem;
+}
+
+#estasregistrado {
+  color: whitesmoke;
+}
+
+.visibleT {
+  visibility: visible;
+  z-index: 1;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .visibleCarr {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .visibleT {
+    display: none;
+  }
+
+  .toptitle {
+    text-align: center;
+  }
+
+  .visibleCarr {
+    visibility: visible;
+    margin-top: 0rem;
+  }
+
+  .text-white-carr {
+    color: white;
+    font-size: 1.8rem;
+  }
+
+  .bg-warning {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 6.5rem;
+    width: 6.5rem;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .paraCarr {
+    width: 50rem;
+    height: 40rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .visibleT {
+    display: none;
+  }
+
+  .visibleCarr {
+    visibility: visible;
+    margin-top: 0rem;
+  }
+
+  .bg-warning {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 6.5rem;
+    width: 6.5rem;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .paraCarr {
+    width: 50rem;
+    height: 40rem;
+  }
+
+  .quienes-somos {
+    margin-bottom: 3rem;
+  }
+
+  .toptitle {
+    text-align: center;
+  }
+
+  .text-white-carr {
+    color: white;
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width:1300px) {
+  .toptitle {
+    text-align: left;
+  }
+}
+
+@media (max-width:1300px) {
+  .toptitle {
+    text-align: left;
+  }
+}
+
+@media (max-width:1068px) {
+  .toptitle {
+    text-align: left;
+  }
+
+  .text-white {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    background-color: rgba(22, 33, 87, 0.7);
+    height: 80px;
+  }
+
+  .navbar-dark .navbar-toggler {
+    background-color: rgba(22, 33, 87, 0.7);
+    z-index: 99999;
+  }
+
+  #menuBurguer {
+    margin-left: 40vw;
+    background-color: rgba(19, 149, 200, 0.897);
+    font-style: italic;
+    color: #fef200;
+    margin-top: -80px;
+    margin-right: -10px;
+    padding-top: 50px;
+    padding-right: 10px;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, .9);
+  }
+
+  .menu {
+    align-items: flex-end;
+    padding-right: 5px;
+    text-align: right;
+    padding: 10px;
+  }
+
+  .icoSociale {
+    display: none;
+  }
+
+  .nav-item {
+    padding: 10px 0 10px 0;
+    font-size: 2.2em;
+  }
+
+  .nav-item:hover,
+  :after {
+    width: 100%;
+    border-bottom: 2px solid #2b045d;
+  }
+
+  .ocultarDonde {
+    display: none;
+  }
+
+  .ocultarLogin {
+    display: block;
+  }
+
+  .text-white {
+    font-size: 1.2rem;
+  }
+
+  .formulario {
+    display: none;
+  }
+}
+
+@media (max-width:928px) {
+  .text-white {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width:868px) {
+  .text-white {
+    font-size: 0.8rem;
+  }
+}
